@@ -1,0 +1,168 @@
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.page-header {
+  width: 100%;
+  background-color: #7D7F83;
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+.product-title {
+  text-align: center;
+  margin-top: 50px;
+  display: block;
+  color: #95989A;
+}
+
+.main-floral {
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.main-price {
+  text-align: center;
+  font-size: 1.5rem;
+  color:#95989A;
+  margin-top: 50px;
+}
+
+.nav-button-desktop {
+  border-top: 50px;
+  color: white;
+  text-decoration: none;
+  background: #95989A;
+  padding: .75rem;
+  border-radius: 5px;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+.button-container {
+  max-width: 500px;
+  margin: auto;
+  margin-top: 75px;
+}
+
+.similar-column {
+  width: 20%;
+  margin-left: 100px;
+  margin-top: 50px;
+  float: left;
+}
+
+.similar-div {
+  max-width: 230px;
+  margin: auto;
+}
+
+.similar-title {
+  text-align: center;
+}
+
+.similar-floral {
+  width: 135px;
+  height: 121px;
+  margin-bottom: 50px;
+
+}
+
+.similar-price {
+  display: inline-block;
+  float: right;
+  margin-top: 60px;
+  font-size: 1.5rem;
+  color:#95989A;
+}
+
+.options-column {
+  width: 50%;
+  margin-left: 100px;
+  margin-top: 50px;
+  display: inline-block;
+  float: right;
+  overflow: auto;
+}
+
+.add-to-cart {text-align: center;
+margin-top: 10px;
+display: block;
+color: #95989A;
+}
+
+.app-content {
+  display: flex;
+  margin: auto;
+  max-width: 1000px;
+}
+
+.container {
+  max-width: 369px;
+  margin: auto;
+}
+
+.options-title {
+  text-align: center;
+}
+
+.main-options {
+  max-width: 369px;
+  margin: auto;
+}
+
+.input-radio {
+  margin: .7rem .1rem;
+}
+
+.flex-row {
+  display: flex;
+}
+
+.flex-column {
+  flex-grow: 1;
+  padding: .5rem;
+}
+
+.main-column {
+  flex-basis: 50%;
+}
+
+.delivery-price,
+.amount {
+  text-align: right;
+}
+
+.subtotal-section {
+  margin-top: 50px;
+}
+
+.total-line {
+  border-bottom: .5px solid #95989A;
+}
+
+.confirm {
+  margin-top: 75px;
+}
+
+.confirm, left {
+  margin-left: 65px;
+}
+
+.confirm, right {
+  margin-right: 50px;
+}
