@@ -16,6 +16,11 @@ body {
   padding: 15px;
 }
 
+.page-content {
+  max-width: 369px;
+  margin: auto;
+}
+
 .product-title {
   text-align: center;
   margin-top: 50px;
@@ -165,4 +170,66 @@ color: #95989A;
 
 .confirm, right {
   margin-right: 50px;
+}
+
+.payment-form {
+  max-width: 500px;
+  margin: auto;
+}
+
+input[type=text], input[type=number] {
+  width: 100%;
+  padding: .5rem ;
+  font-size: 1rem;
+  outline: none;
+}
+
+input[type=text]::placeholder, input[type=number]::placeholder {
+  color: #CFD1D3;
+}
+
+.select-card {
+  margin-top: 3rem;
+  margin-left: .5rem;
+}
+
+.select {
+  display: inline-block;
+  margin-right: .5rem;
+}
+
+.credit {
+  height: 15px;
+  width: 25px;
+  margin-right: .5rem;
+}
+
+.medium {
+  flex-basis:60%;
+}
+
+.small {
+  flex-basis: 20%;
+}
+
+.confirmation-content {
+  max-width: 369px;
+  margin: auto;
+}
+
+
+.app-page {
+  max-width: 1000px;
+  display: flex;
+  margin: auto;
+}
+
+@media (max-width: 600px) {
+  .app-page {
+    margin: auto;
+    flex-wrap: wrap;
+  }
+  .main-column {
+    flex-basis: 100%;
+  }
 }
